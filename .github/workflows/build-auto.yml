@@ -5,6 +5,7 @@ on:
     - '.github/workflows/build-auto.yml'
     - 'build.sh'
     - 'laf'
+  workflow_dispatch:
 jobs:
   build-auto:
     runs-on: ${{ matrix.os }}
